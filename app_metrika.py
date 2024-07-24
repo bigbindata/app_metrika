@@ -7,8 +7,8 @@ import time
 key = os.getenv("API_KEY")
 app_id = os.getenv("APP_ID")
 
-start_date = (datetime.now()- timedelta(days=1)).strftime("%Y-%m-%d") # заменить здесь days=1 на days=7 для загрузки за последние 7 дней не включая текущую дату
-end_date = (datetime.now()-timedelta(days=1)).strftime("%Y-%m-%d") # заменить здесь days=1 на days=7 для загрузки за последние 7 дней не включая текущую дату
+start_date = (datetime.now()- timedelta(days=1)).strftime("%Y-%m-%d") 
+end_date = (datetime.now()-timedelta(days=1)).strftime("%Y-%m-%d") 
 
 class ApiAppMetrika():
 
